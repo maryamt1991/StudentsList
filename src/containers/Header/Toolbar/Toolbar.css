@@ -1,0 +1,36 @@
+.Toolbar{
+    height: 50px;
+    width:100%;
+    background-color: #FFF;
+    border-bottom: 1px solid #cccc;
+    position: fixed;
+    left:0;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+    direction: rtl;
+}
+.Toolbar nav{
+    height: 100%;
+   }
+   input{
+    width: 95%;
+    height: 45px;
+    border-radius: 5px;
+    padding: 5px;
+    border:1px solid #ccc;
+    outline: none;
+    box-sizing: border-box;
+    margin: 10px auto;
+    direction: ltr;
+}
+@media(max-width:499px){
+    .showNav{
+        display: none;
+    }
+    
+}
